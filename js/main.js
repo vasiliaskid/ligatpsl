@@ -38,6 +38,7 @@ function renderNextMatches() {
         <div class="next-match-card">
             <h4>${match.teams}</h4>
             <p><strong>Tanggal:</strong> ${formatDate(match.date)}</p>
+            <p><strong>Waktu:</strong> ${match.time}</p>
             <p><strong>Venue:</strong> ${match.venue}</p>
         </div>
     `

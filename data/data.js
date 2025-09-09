@@ -111,11 +111,13 @@ export const ligaData = {
     {
       date: "2025-09-10",
       teams: "Bapperida FC vs SETDA FC",
+      time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2025-09-10",
       teams: "BKPSDM SC vs PS. BPKPD",
+      time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
   ],
@@ -190,12 +192,14 @@ export const ligaData = {
       date: "2025-09-10",
       teams: "Bapperida FC vs SETDA FC",
       score: "0-0",
+      time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2025-09-10",
       teams: "BKPSDM SC vs PS. BPKPD",
       score: "0-0",
+      time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {

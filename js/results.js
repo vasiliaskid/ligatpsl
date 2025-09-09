@@ -38,6 +38,7 @@ function renderResults() {
                 <td><strong>${dateDisplay}</strong></td>
                 <td class="match-teams">${result.teams}</td>
                 <td class="match-score">${result.score}</td>
+                <td class="match-time">${result.time || '-'}</td>
                 <td class="match-venue">${result.venue}</td>
             </tr>
         `;
