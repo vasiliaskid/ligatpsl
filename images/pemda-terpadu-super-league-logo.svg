@@ -1,0 +1,64 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="500" height="500" fill="black"/>
+<g filter="url(#filter0_d_1_2)">
+<path d="M250 100C250 100 150 150 150 200C150 250 250 300 250 300C250 300 350 250 350 200C350 150 250 100 250 100Z" fill="#2A3B56"/>
+<path d="M250 100L150 200L250 300L350 200L250 100Z" stroke="#F2F2F2" stroke-width="5"/>
+</g>
+<g filter="url(#filter1_d_1_2)">
+<path d="M250 250C250 250 200 200 200 150C200 100 250 50 250 50C250 50 300 100 300 150C300 200 250 250 250 250Z" fill="#F2F2F2"/>
+<path d="M250 250L200 150L250 50L300 150L250 250Z" stroke="#2A3B56" stroke-width="5"/>
+</g>
+<g filter="url(#filter2_d_1_2)">
+<path d="M250 350C250 350 150 400 150 450C150 500 250 550 250 550C250 550 350 500 350 450C350 400 250 350 250 350Z" fill="#2A3B56"/>
+<path d="M250 350L150 450L250 550L350 450L250 350Z" stroke="#F2F2F2" stroke-width="5"/>
+</g>
+<g filter="url(#filter3_d_1_2)">
+<path d="M250 400C250 400 200 350 200 300C200 250 250 200 250 200C250 200 300 250 300 300C300 350 250 400 250 400Z" fill="#F2F2F2"/>
+<path d="M250 400L200 300L250 200L300 300L250 400Z" stroke="#2A3B56" stroke-width="5"/>
+</g>
+<text x="250" y="450" font-family="'Roboto', sans-serif" font-size="40" font-weight="700" fill="#F2F2F2" text-anchor="middle">PEMDA TERPADU</text>
+<text x="250" y="490" font-family="'Roboto', sans-serif" font-size="40" font-weight="700" fill="#F2F2F2" text-anchor="middle">SUPER LEAGUE</text>
+<text x="250" y="530" font-family="'Roboto', sans-serif" font-size="20" font-weight="500" fill="#F2F2F2" text-anchor="middle">FUN FOOTBALL, STRONG FRIENDSHIP</text>
+<defs>
+<filter id="filter0_d_1_2" x="145" y="95" width="210" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<filter id="filter1_d_1_2" x="195" y="45" width="110" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<filter id="filter2_d_1_2" x="145" y="345" width="210" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+<filter id="filter3_d_1_2" x="195" y="195" width="110" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,920 @@
+/* Reset dan Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content */
+.main {
+  padding: 2rem 0;
+}
+
+/* Section Styling */
+section {
+  background: white;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0b525b;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border-bottom: 3px solid #0b525b;
+  padding-bottom: 0.5rem;
+}
+
+section h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Next Match Styles */
+.next-matches {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.next-match-card {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(11, 82, 91, 0.3);
+}
+
+.next-match-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.next-match-card p {
+  margin: 0.25rem 0;
+  opacity: 0.9;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 1rem 0.5rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+td {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+tr:hover td {
+  background-color: #fdf4e3;
+}
+
+/* Team Logo dalam Tabel */
+.team-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Increased gap for better spacing */
+  min-width: 220px; /* Ensure adequate width */
+}
+
+.team-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+  flex-shrink: 0; /* Prevent logo from shrinking */
+  border: 1px solid #e0e0e0;
+  background-color: #f5f5f5; /* Background color for placeholder */
+}
+
+.team-name {
+  color: #0b525b;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.team-name:hover {
+  color: #0a4a52;
+  text-decoration: underline;
+}
+
+/* Standings Table Specific */
+.standings-table th:first-child,
+.standings-table td:first-child {
+  text-align: center;
+  width: 60px; /* Increased width for better spacing */
+  padding: 0.75rem 0.25rem;
+}
+
+.standings-table .team-cell {
+  min-width: 200px;
+}
+
+/* Team Links Grid */
+.team-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.team-link-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.team-link-item:hover {
+  background-color: #e0f2f7;
+  border-color: #0b525b;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-link-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+  flex-shrink: 0;
+  border: 1px solid #e0e0e0;
+  background-color: #f5f5f5;
+}
+
+/* Position Colors */
+/* Position styling with proper centering - FIXED */
+.position-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 12px;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Gold for 1st place */
+.position-1 {
+  background: linear-gradient(135deg, #ffd700 0%, #ffc107 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+/* Silver for 2nd place */
+.position-2 {
+  background: linear-gradient(135deg, #c0c0c0 0%, #a8a8a8 100%);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(192, 192, 192, 0.3);
+}
+
+/* Bronze for 3rd place */
+.position-3 {
+  background: linear-gradient(135deg, #cd7f32 0%, #b8860b 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(205, 127, 50, 0.3);
+}
+
+/* Special styling for 4th place (playoff position) */
+.position-4 {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(11, 82, 91, 0.3);
+}
+
+/* Regular positions */
+/* Position styling dengan circle yang rapi - FIXED */
+.position-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Gold for 1st place */
+.position-1 {
+  background: linear-gradient(135deg, #ffd700 0%, #ffc107 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+/* Silver for 2nd place */
+.position-2 {
+  background: linear-gradient(135deg, #c0c0c0 0%, #a8a8a8 100%);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(192, 192, 192, 0.3);
+}
+
+/* Bronze for 3rd place */
+.position-3 {
+  background: linear-gradient(135deg, #cd7f32 0%, #b8860b 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(205, 127, 50, 0.3);
+}
+
+/* Special styling for 4th place (playoff position) */
+.position-4 {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(11, 82, 91, 0.3);
+}
+
+/* Regular positions */
+.position-regular {
+  background: #f8f9fa;
+  color: #333;
+  border: 2px solid #dee2e6;
+}
+
+/* Team badge styling */
+.team-badge {
+  width: 24px;
+  height: 24px;
+  background: #0b525b;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  margin-right: 8px;
+}
+
+/* Tab Styles */
+.tabs-section {
+  margin-top: 3rem;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background: #f0f0f0;
+  border: 2px solid #ddd;
+  color: #666;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.tab-button:hover {
+  background: #e0e0e0;
+  border-color: #0b525b;
+  color: #0b525b;
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  border-color: #0b525b;
+  color: white;
+  box-shadow: 0 3px 10px rgba(11, 82, 91, 0.3);
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Team Links */
+.team-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.team-link {
+  display: block;
+  background: linear-gradient(135deg, #fdf4e3 0%, #f5e6d3 100%);
+  color: #0b525b;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-weight: 500;
+}
+
+.team-link:hover {
+  border-color: #0b525b;
+  box-shadow: 0 5px 15px rgba(11, 82, 91, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Team Profile Styles */
+.team-profile {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.team-logo-large {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-info {
+  background: #fdf4e3;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  border-left: 4px solid #0b525b;
+}
+
+.team-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.team-info-item:last-child {
+  border-bottom: none;
+}
+
+.team-info-label {
+  font-weight: 600;
+  color: #0b525b;
+}
+
+.team-info-value {
+  color: #333;
+  text-align: right;
+}
+
+.team-description {
+  text-align: left;
+  line-height: 1.8;
+  color: #666;
+  font-size: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 2rem 0;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  box-shadow: 0 5px 15px rgba(11, 82, 91, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Error Handling */
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  border-left: 4px solid #c62828;
+}
+
+.loading-message {
+  background: #fdf4e3;
+  color: #0b525b;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  border-left: 4px solid #0b525b;
+}
+
+/* Championship Bracket Styles */
+.bracket-section {
+  margin-top: 3rem;
+}
+
+.bracket-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fdf4e3 0%, #f5e6d3 100%);
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.bracket-round {
+  text-align: center;
+  min-width: 200px;
+}
+
+.bracket-round h4 {
+  color: #0b525b;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.bracket-matches {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.bracket-match {
+  background: white;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.bracket-match:hover {
+  border-color: #0b525b;
+  box-shadow: 0 4px 15px rgba(11, 82, 91, 0.2);
+}
+
+.bracket-team {
+  padding: 0.5rem;
+  font-weight: 500;
+  color: #0b525b;
+  background: #fdf4e3;
+  border-radius: 5px;
+  margin: 0.25rem 0;
+}
+
+.bracket-vs {
+  font-weight: bold;
+  color: #c0c0c0;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.final-match {
+  border: 3px solid #0b525b;
+  background: linear-gradient(135deg, #fdf4e3 0%, #f5e6d3 100%);
+}
+
+.bracket-arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0b525b;
+}
+
+.arrow-line {
+  width: 2px;
+  height: 50px;
+  background: #c0c0c0;
+  margin-bottom: 0.5rem;
+}
+
+.arrow-head {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0b525b;
+}
+
+.champion-placeholder {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(11, 82, 91, 0.3);
+}
+
+.trophy-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.champion-text {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Officials Page Styles */
+.officials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.official-card {
+  background: white;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.official-card:hover {
+  border-color: #0b525b;
+  box-shadow: 0 5px 20px rgba(11, 82, 91, 0.2);
+  transform: translateY(-3px);
+}
+
+.official-role {
+  background: linear-gradient(135deg, #0b525b 0%, #0a4a52 100%);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.official-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0b525b;
+  margin-bottom: 1rem;
+}
+
+.official-description {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.contact-info {
+  margin-top: 3rem;
+  background: #fdf4e3;
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 4px solid #0b525b;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #c0c0c0;
+}
+
+/* Regulations Page Styles */
+.regulation-category {
+  background: white;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+  transition: all 0.3s ease;
+}
+
+.regulation-category:hover {
+  border-color: #0b525b;
+  box-shadow: 0 3px 15px rgba(11, 82, 91, 0.1);
+}
+
+.regulation-category h3 {
+  color: #0b525b;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #c0c0c0;
+  padding-bottom: 0.5rem;
+}
+
+.regulation-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.regulation-category li {
+  background: #fdf4e3;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #0b525b;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.regulation-category li:before {
+  content: "•";
+  color: #0b525b;
+  font-weight: bold;
+  position: absolute;
+  left: 1rem;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .standings-table th:first-child,
+  .standings-table td:first-child {
+    width: 50px;
+    padding: 0.5rem 0.2rem;
+  }
+
+  .position-circle {
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+  }
+
+  .team-cell {
+    min-width: 160px;
+    gap: 0.5rem;
+  }
+
+  .team-logo {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .standings-table th:first-child,
+  .standings-table td:first-child {
+    width: 45px;
+    padding: 0.4rem 0.1rem;
+  }
+
+  .position-circle {
+    width: 22px;
+    height: 22px;
+    font-size: 10px;
+  }
+
+  .team-cell {
+    min-width: 140px;
+    gap: 0.4rem;
+  }
+
+  .team-logo {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.header .container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav {
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+section {
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+section h2 {
+  font-size: 1.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+th,
+td {
+  padding: 0.75rem 0.3rem;
+  font-size: 0.8rem;
+}
+
+.team-cell {
+  min-width: 150px;
+}
+
+.team-links {
+  grid-template-columns: 1fr;
+}
+
+.tab-buttons {
+  justify-content: center;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+.next-matches {
+  grid-template-columns: 1fr;
+}
+
+.team-info-item {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.team-info-value {
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  section {
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  th,
+  td {
+    padding: 0.5rem 0.2rem;
+    font-size: 0.75rem;
+  }
+
+  .standings-table .team-cell {
+    min-width: 120px;
+  }
+
+  .team-logo {
+    width: 16px;
+    height: 16px;
+  }
+
+  .team-logo-large {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header,
+  .footer,
+  .nav,
+  .tab-buttons,
+  .team-links {
+    display: none;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  section {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    page-break-inside: avoid;
+  }
+}
+
+td {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  vertical-align: middle; /* Perbaikan alignment vertikal */
+}
+
+.positive-gd {
+  color: #4caf50;
+  font-weight: 500;
+}
+
+.negative-gd {
+  color: #f44336;
+  font-weight: 500;
+}
