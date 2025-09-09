@@ -43,7 +43,7 @@ function renderTeamProfile(teamName) {
   }
 
   // Update title halaman
-  document.title = `${teamData.name} - Liga Sepak Bola Lokal`;
+  document.title = `${teamData.name} - Liga Pemkab`;
 
   // Update logo
   const logoElement = document.getElementById("team-logo");

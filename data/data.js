@@ -1,4 +1,4 @@
-// Data Liga Sepak Bola Lokal
+// Data Liga Pemkab
 // File ini berisi semua data yang diperlukan untuk website liga
 
 export const ligaData = {

@@ -1,6 +1,6 @@
-# Website Liga Sepak Bola Lokal
+# Website Liga Pemkab
 
-Website klasemen liga sepak bola lokal yang menampilkan informasi lengkap tentang 10 tim peserta, klasemen, jadwal pertandingan, hasil terbaru, dan statistik pemain.
+Website klasemen liga Pemkab yang menampilkan informasi lengkap tentang 10 tim peserta, klasemen, jadwal pertandingan, hasil terbaru, dan statistik pemain.
 
 ## 🚀 Fitur Utama
 
@@ -175,7 +175,7 @@ Jika mengalami masalah, periksa:
 
 ## 📄 License
 
-Website ini dibuat untuk keperluan liga sepak bola lokal. Bebas dimodifikasi sesuai kebutuhan.
+Website ini dibuat untuk keperluan liga Pemkab. Bebas dimodifikasi sesuai kebutuhan.
 
 ---
 
