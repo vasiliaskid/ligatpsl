@@ -1,70 +1,121 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DPMD BAL-BALAN - Liga Pemkab</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DPMD Bal-balan - Liga Pemkab</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <h1 class="logo"><img src="../images/logo_ptsl.png" alt="Pemda Terpadu Super League" style="height: 50px;"> Pemda Terpadu Super League Logo</h1>
-            <nav class="nav">
-                <a href="../index.html" class="nav-link">Beranda</a>
-                <a href="../regulations.html" class="nav-link">Peraturan</a>
-                <a href="../officials.html" class="nav-link">Pengurus Liga</a>
-                <a href="../recent-results.html" class="nav-link">Hasil</a>
-            </nav>
-        </div>
+      <div class="container">
+        <h1 class="logo">
+          <img
+            src="../images/logo_ptsl.png"
+            alt="Pemda Terpadu Super League"
+            style="height: 50px"
+          />
+          Pemda Terpadu Super League Logo
+        </h1>
+        <nav class="nav">
+          <a href="../index.html" class="nav-link">Beranda</a>
+          <a href="../regulations.html" class="nav-link">Peraturan</a>
+          <a href="../officials.html" class="nav-link">Pengurus Liga</a>
+          <a href="../recent-results.html" class="nav-link">Hasil</a>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main class="main">
-        <div class="container">
-            <div class="team-profile">
-                <img id="team-logo" class="team-logo-large" src="../images/logos/default-logo.png" alt="Logo DPMD BAL-BALAN">
-                
-                <h1 id="team-name">DPMD BAL-BALAN</h1>
-                
-                <div class="team-info">
-                    <div class="team-info-item">
-                        <span class="team-info-label">Tahun Berdiri:</span>
-                        <span class="team-info-value" id="team-founded">2021</span>
-                    </div>
-                    <div class="team-info-item">
-                        <span class="team-info-label">Stadion:</span>
-                        <span class="team-info-value" id="team-stadium">Stadion DPMD</span>
-                    </div>
-                    <div class="team-info-item">
-                        <span class="team-info-label">Pelatih:</span>
-                        <span class="team-info-value" id="team-coach">Manajer DPMD</span>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="team-profile">
+          <img
+            id="team-logo"
+            class="team-logo-large"
+            src="../images/logos/default-logo.png"
+            alt="Logo DPMD Bal-balan"
+          />
 
-                <div class="team-description">
-                    <h3>Tentang Tim</h3>
-                    <p id="team-description">Tim sepak bola dari DPMD.</p>
-                </div>
+          <h1 id="team-name">DPMD Bal-balan</h1>
+          <h2 id="team-nickname">Bregada Desa</h2>
 
-                <div id="team-composition">
-                    <!-- Komposisi tim (manajer, pemain) akan dimuat dengan JavaScript -->
-                </div>
-
-                <a href="../index.html" class="back-link">← Kembali ke Beranda</a>
+          <div class="team-info">
+            <div class="team-info-item">
+              <span class="team-info-label">Tahun Berdiri:</span>
+              <span class="team-info-value" id="team-founded">2025</span>
             </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Stadion:</span>
+              <span class="team-info-value" id="team-stadium"
+                >Stadion DPMD</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">General Manajer:</span>
+              <span class="team-info-value" id="team-general-manager"
+                >Pudjiatmoko, S.Sos</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Operational Manajer:</span>
+              <span class="team-info-value" id="team-operational-manager"
+                >Hiladawati Aziroh, S.STP</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Pelatih:</span>
+              <span class="team-info-value" id="team-coach"
+                >Heru Cahyono, S.H., M.Si</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Tim Medis:</span>
+              <span class="team-info-value" id="team-medical"
+                >Esti Purwaningsih, S.E., M.Si</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Tim Liputan:</span>
+              <span class="team-info-value" id="team-media"
+                >Anggoro Adi Pratomo, S.H. dan Desi Yusnita</span
+              >
+            </div>
+            <div class="team-info-item">
+              <span class="team-info-label">Tim Perlengkapan:</span>
+              <span class="team-info-value" id="team-equipment"
+                >Yunus Puthut H, Kevin Rinto, Sugeng Riyadi dan Khoirur
+                Roziqin</span
+              >
+            </div>
+          </div>
+
+          <div class="team-description">
+            <h3>Tentang Tim</h3>
+            <p id="team-description">Tim sepak bola dari DPMD.</p>
+          </div>
+
+          <div id="team-composition">
+            <!-- Komposisi tim (manajer, pemain) akan dimuat dengan JavaScript -->
+          </div>
+
+          <a href="../index.html" class="back-link">← Kembali ke Beranda</a>
         </div>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 - Pemda Terpadu Super League</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 - Pemda Terpadu Super League</p>
+      </div>
     </footer>
 
     <script type="module" src="../js/team-profile.js"></script>
-</body>
+  </body>
 </html>
