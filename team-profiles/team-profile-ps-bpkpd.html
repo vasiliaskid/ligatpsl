@@ -1,104 +1,70 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PS. BPKPD - Liga Pemkab</title>
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
-        <h1 class="logo">
-          <img
-            src="../images/logo_ptsl.png"
-            alt="Pemda Terpadu Super League"
-            style="height: 50px"
-          />
-          Pemda Terpadu Super League Logo
-        </h1>
-        <nav class="nav">
-          <a href="../index.html" class="nav-link">Beranda</a>
-          <a href="../regulations.html" class="nav-link">Peraturan</a>
-          <a href="../officials.html" class="nav-link">Pengurus Liga</a>
-          <a href="../recent-results.html" class="nav-link">Hasil</a>
-        </nav>
-      </div>
+        <div class="container">
+            <h1 class="logo"><img src="../images/logo_ptsl.png" alt="Pemda Terpadu Super League" style="height: 50px;"> Pemda Terpadu Super League Logo</h1>
+            <nav class="nav">
+                <a href="../index.html" class="nav-link">Beranda</a>
+                <a href="../regulations.html" class="nav-link">Peraturan</a>
+                <a href="../officials.html" class="nav-link">Pengurus Liga</a>
+                <a href="../recent-results.html" class="nav-link">Hasil</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Content -->
     <main class="main">
-      <div class="container">
-        <div class="team-profile">
-          <img
-            id="team-logo"
-            class="team-logo-large"
-            src="../images/logos/default-logo.png"
-            alt="Logo PS. BPKPD"
-          />
+        <div class="container">
+            <div class="team-profile">
+                <img id="team-logo" class="team-logo-large" src="../images/logos/default-logo.png" alt="Logo PS. BPKPD">
+                
+                <h1 id="team-name">PS. BPKPD</h1>
+                
+                <div class="team-info">
+                    <div class="team-info-item">
+                        <span class="team-info-label">Tahun Berdiri:</span>
+                        <span class="team-info-value" id="team-founded">2018</span>
+                    </div>
+                    <div class="team-info-item">
+                        <span class="team-info-label">Stadion:</span>
+                        <span class="team-info-value" id="team-stadium">Stadion BPKPD</span>
+                    </div>
+                    <div class="team-info-item">
+                        <span class="team-info-label">Pelatih:</span>
+                        <span class="team-info-value" id="team-coach">Manajer BPKPD</span>
+                    </div>
+                </div>
 
-          <h1 id="team-name">PS. BPKPD</h1>
-          <h2 id="team-nickname">Beruang Orange</h2>
+                <div class="team-description">
+                    <h3>Tentang Tim</h3>
+                    <p id="team-description">Tim sepak bola dari BPKPD.</p>
+                </div>
 
-          <div class="team-info">
-            <div class="team-info-item">
-              <span class="team-info-label">Tahun Berdiri:</span>
-              <span class="team-info-value" id="team-founded">2018</span>
-            </div>
-            <div class="team-info-item">
-              <span class="team-info-label">Stadion:</span>
-              <span class="team-info-value" id="team-stadium"
-                >Stadion BPKPD</span
-              >
-            </div>
-            <div class="team-info-item">
-              <span class="team-info-label">Ketua:</span>
-              <span class="team-info-value" id="team-chairman">Dwiyanto</span>
-            </div>
-            <div class="team-info-item">
-              <span class="team-info-label">Direktur:</span>
-              <span class="team-info-value" id="team-directors"
-                >Arie Yulianto, Kadiman, N. Hartono</span
-              >
-            </div>
-            <div class="team-info-item">
-              <span class="team-info-label">Manajer:</span>
-              <span class="team-info-value" id="team-manager">Tomo Haye</span>
-            </div>
-            <div class="team-info-item">
-              <span class="team-info-label">Nama Suporter:</span>
-              <span class="team-info-value" id="team-supporter"
-                >FBI (Fans Beruang Imut)</span
-              >
-            </div>
-          </div>
+                <div id="team-composition">
+                    <!-- Komposisi tim (manajer, pemain) akan dimuat dengan JavaScript -->
+                </div>
 
-          <div class="team-description">
-            <h3>Tentang Tim</h3>
-            <p id="team-description">Tim sepak bola dari BPKPD.</p>
-          </div>
-
-          <div id="team-composition">
-            <!-- Komposisi tim (manajer, pemain) akan dimuat dengan JavaScript -->
-          </div>
-
-          <a href="../index.html" class="back-link">← Kembali ke Beranda</a>
+                <a href="../index.html" class="back-link">← Kembali ke Beranda</a>
+            </div>
         </div>
-      </div>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <p>&copy; 2025 - Pemda Terpadu Super League</p>
-      </div>
+        <div class="container">
+            <p>&copy; 2025 - Pemda Terpadu Super League</p>
+        </div>
     </footer>
 
     <script type="module" src="../js/team-profile.js"></script>
-  </body>
+</body>
 </html>
