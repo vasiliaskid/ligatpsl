@@ -5,43 +5,43 @@ export const ligaData = {
   // Klasemen Liga
   standings: [
     {
-      team: "Bapperida FC",
-      played: 0,
-      won: 0,
-      drawn: 0,
-      lost: 0,
-      gf: 0,
-      ga: 0,
-      points: 0,
-    },
-    {
       team: "SETDA FC",
-      played: 0,
-      won: 0,
+      played: 1,
+      won: 1,
       drawn: 0,
       lost: 0,
-      gf: 0,
+      gf: 3,
       ga: 0,
-      points: 0,
+      points: 3,
     },
     {
       team: "BKPSDM SC",
-      played: 0,
+      played: 1,
       won: 0,
-      drawn: 0,
+      drawn: 1,
       lost: 0,
       gf: 0,
       ga: 0,
-      points: 0,
+      points: 1,
     },
     {
       team: "PS. BPKPD",
-      played: 0,
+      played: 1,
       won: 0,
-      drawn: 0,
+      drawn: 1,
       lost: 0,
       gf: 0,
       ga: 0,
+      points: 1,
+    },
+    {
+      team: "Bapperida FC",
+      played: 1,
+      won: 0,
+      drawn: 0,
+      lost: 1,
+      gf: 0,
+      ga: 3,
       points: 0,
     },
     {
@@ -109,14 +109,14 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-09-10",
-      teams: "Bapperida FC vs SETDA FC",
+      date: "2025-09-17",
+      teams: "DISKOMINFO FC vs PRADAM FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-09-10",
-      teams: "BKPSDM SC vs PS. BPKPD",
+      date: "2025-09-17",
+      teams: "Dispora FC vs KESBANG FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -157,13 +157,13 @@ export const ligaData = {
     {
       date: "2025-03-01",
       teams: "Bapperida FC vs SETDA FC",
-      score: "-",
+      score: "0-3",
       venue: "Stadion A",
     },
     {
       date: "2025-03-01",
       teams: "BKPSDM SC vs PS. BPKPD",
-      score: "-",
+      score: "0-0",
       venue: "Stadion B",
     },
     {
@@ -191,7 +191,7 @@ export const ligaData = {
     {
       date: "2025-09-10",
       teams: "Bapperida FC vs SETDA FC",
-      score: "0-0",
+      score: "0-3",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -464,24 +464,17 @@ export const ligaData = {
 
   // Top Skor
   topScorers: [
-    { player: "Pemain A", team: "Bapperida FC", goals: 5 },
-    { player: "Pemain B", team: "SETDA FC", goals: 4 },
-    { player: "Greg Nowokolo", team: "BKPSDM SC", goals: 3 },
-    { player: "Pemain D", team: "PS. BPKPD", goals: 3 },
-    { player: "Pemain E", team: "DISKOMINFO FC", goals: 2 },
+    { player: "Franky", team: "SETDA FC", goals: 2 },
+    { player: "Arif", team: "SETDA FC", goals: 1 },
   ],
 
   // Kartu Merah
-  redCards: [
-    { player: "Pemain F", team: "PRADAM FC", count: 1 },
-    { player: "Pemain G", team: "Dispora FC", count: 1 },
-  ],
+  redCards: [],
 
   // Kartu Kuning
   yellowCards: [
-    { player: "Pemain H", team: "KESBANG FC", count: 2 },
-    { player: "Pemain I", team: "DPMD Bal-balan", count: 2 },
-    { player: "Pemain J", team: "Inspektorat TM", count: 1 },
+    { player: "Totok", team: "Bapperida FC", count: 1 },
+    { player: "Bagus", team: "SETDA FC", count: 1 },
   ],
 
   // Data Tim
