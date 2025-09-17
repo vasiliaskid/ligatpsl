@@ -75,8 +75,10 @@ function renderStandings() {
         position <= 4 ? `position-${position}` : "position-regular";
 
       const teamProfile = getTeamProfile(team.team);
-      // Always use the default logo as requested
-      const logoSrc = `../images/logos/default-logo.png`;
+      // Use team-specific logo or default logo
+      const logoSrc = teamProfile && teamProfile.profile.logo 
+        ? teamProfile.profile.logo 
+        : `images/logos/default-logo.png`;
 
       const teamLink = teamProfile
         ? `team-profiles/team-profile-${slugify(team.team)}.html`
@@ -218,7 +220,7 @@ function renderTeamLinks() {
           <a href="team-profiles/team-profile-${slugify(
             team.name
           )}.html" class="team-link-item">
-              <img src="../images/logos/default-logo.png" alt="Logo ${team.name}" class="team-link-logo">
+              <img src="${team.profile.logo || 'images/logos/default-logo.png'}" alt="Logo ${team.name}" class="team-link-logo">
               <span>${team.name}</span>
           </a>
       `
