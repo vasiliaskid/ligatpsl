@@ -483,7 +483,7 @@ export const ligaData = {
       name: "Bapperida FC",
       nickname: "Brave Planner",
       profile: {
-        logo: "images/logos/bapperida_logo.png",
+        logo: "../images/logos/bapperida_logo.png",
         founded: "2025",
         stadium: "Stadion Bapperida",
         manager: "Aris Tri Hartanto, S.STP",
