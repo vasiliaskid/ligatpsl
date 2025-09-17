@@ -48,7 +48,8 @@ function renderTeamProfile(teamName) {
   // Update logo
   const logoElement = document.getElementById("team-logo");
   if (logoElement) {
-    logoElement.src = teamData.profile.logo || "../images/logos/default-logo.png";
+    logoElement.src =
+      teamData.profile.logo || "../images/logos/default-logo.png";
     logoElement.alt = `Logo ${teamData.name}`;
     logoElement.onerror = function () {
       this.src =

@@ -525,7 +525,7 @@ export const ligaData = {
     {
       name: "SETDA FC",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/setda_logo.png",
         founded: "2019",
         stadium: "Stadion SETDA",
         coach: "Manajer SETDA",
@@ -545,7 +545,7 @@ export const ligaData = {
       name: "BKPSDM SC",
       nickname: "The Owl",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/bkpsdm_logo.png",
         founded: "2025",
         stadium: "Stadion BKPSDM",
         manager: "Agus Suwondo",
@@ -590,7 +590,7 @@ export const ligaData = {
       nickname: "Beruang Orange",
       supporter_name: "FBI (Fans Beruang Imut)",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/bpkpd_logo.png",
         founded: "2018",
         stadium: "Stadion BPKPD",
         chairman: "Dwiyanto",
@@ -627,7 +627,7 @@ export const ligaData = {
       name: "Diskominfo FC",
       nickname: "Funny Team",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/diskominfo_logo.png",
         founded: "2025",
         stadium: "Stadion DISKOMINFO",
         manager: "Catur Sarjanto",
@@ -668,7 +668,7 @@ export const ligaData = {
       name: "PRADAM FC",
       nickname: "Laskar Semongko",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/pradam_logo.png",
         founded: "2021",
         stadium: "Stadion PRADAM",
         manager: "Boghy Yeano Wibowo, S.E., M.M.",
@@ -713,7 +713,7 @@ export const ligaData = {
     {
       name: "Dispora FC",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/dispora_logo.png",
         founded: "2020",
         stadium: "Stadion Dispora",
         coach: "Manajer Dispora",
@@ -732,7 +732,7 @@ export const ligaData = {
     {
       name: "KESBANG FC",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/kesbang_logo.png",
         founded: "2020",
         stadium: "Stadion KESBANG",
         manager: "Drs. Sutrisna, M.Si",
@@ -777,7 +777,7 @@ export const ligaData = {
       name: "DPMD Bal-balan",
       nickname: "Bregada Desa",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/dpmd_logo.png",
         founded: "2025",
         stadium: "Stadion DPMD",
         general_manager: "Pudjiatmoko, S.Sos",
@@ -817,7 +817,7 @@ export const ligaData = {
       name: "Inspektorat TM",
       nickname: "Integrity Boys",
       profile: {
-        logo: "images/logos/default-logo.png",
+        logo: "../images/logos/inspektorat_logo.png",
         founded: "2025",
         stadium: "Stadion Inspektorat",
         manager: "Heri Adi Prabowo",
