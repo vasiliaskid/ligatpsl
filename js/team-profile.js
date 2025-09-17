@@ -78,17 +78,24 @@ function renderTeamProfile(teamName) {
   renderTeamComposition(teamData);
 }
 
-
-
 function renderTeamComposition(teamData) {
   const compositionContainer = document.getElementById("team-composition");
   if (compositionContainer) {
-    let playersHtml = '';
-    if (teamData.squad && teamData.squad.players && teamData.squad.players.length > 0) {
+    let playersHtml = "";
+    if (
+      teamData.squad &&
+      teamData.squad.players &&
+      teamData.squad.players.length > 0
+    ) {
       playersHtml = `
         <h3>Daftar Pemain</h3>
         <ul class="player-list">
-          ${teamData.squad.players.map(player => `<li>${player.name} (${player.position})</li>`).join('')}
+          ${teamData.squad.players
+            .map(
+              (player) =>
+                `<li>${player.number}. ${player.name} (${player.position})</li>`
+            )
+            .join("")}
         </ul>
       `;
     }
@@ -96,7 +103,11 @@ function renderTeamComposition(teamData) {
     compositionContainer.innerHTML = `
       <div class="team-composition-section">
         <h3>Manajer</h3>
-        <p>${teamData.squad && teamData.squad.manager ? teamData.squad.manager : 'N/A'}</p>
+        <p>${
+          teamData.squad && teamData.squad.manager
+            ? teamData.squad.manager
+            : "N/A"
+        }</p>
       </div>
       ${playersHtml}
     `;
@@ -188,7 +199,7 @@ const additionalStyles = `
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 0.5rem;
 }
 
