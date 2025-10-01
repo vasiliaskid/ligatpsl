@@ -75,7 +75,7 @@ export const ligaData = {
       points: 1,
     },
     {
-      team: "DISKOMINFO FC",
+      team: "Diskominfo FC",
       played: 1,
       won: 0,
       drawn: 0,
