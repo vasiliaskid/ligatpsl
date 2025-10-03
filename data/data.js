@@ -477,8 +477,13 @@ export const ligaData = {
   // Kartu Kuning
   yellowCards: [
     { player: "Totok", team: "Bapperida FC", count: 1 },
-    { player: "Bagus", team: "SETDA FC", count: 1 },
+    { player: "Bagus", team: "SETDA FC", count: 2 },
     { player: "Arnazain", team: "Bapperida FC", count: 1 },
+    { player: "Fajar", team: "PRADAM FC", count: 1 },
+    { player: "Fatcul", team: "SETDA FC", count: 1 },
+    { player: "Galih", team: "KESBANG FC", count: 1 },
+    { player: "Wahyudi", team: "KESBANG FC", count: 1 },
+    { player: "Andik", team: "KESBANG FC", count: 1 },
   ],
 
   // Data Tim
