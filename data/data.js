@@ -484,6 +484,7 @@ export const ligaData = {
     { player: "Galih", team: "KESBANG FC", count: 1 },
     { player: "Wahyudi", team: "KESBANG FC", count: 1 },
     { player: "Andik", team: "KESBANG FC", count: 1 },
+    { player: "Fatchul", team: "BKPSDM SC", count: 1 },
   ],
 
   // Data Tim
