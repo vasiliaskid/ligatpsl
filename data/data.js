@@ -5,16 +5,6 @@ export const ligaData = {
   // Klasemen Liga
   standings: [
     {
-      team: "PS. BPKPD",
-      played: 2,
-      won: 1,
-      drawn: 1,
-      lost: 0,
-      gf: 1,
-      ga: 0,
-      points: 4,
-    },
-    {
       team: "SETDA FC",
       played: 2,
       won: 1,
@@ -22,6 +12,16 @@ export const ligaData = {
       lost: 0,
       gf: 4,
       ga: 1,
+      points: 4,
+    },
+    {
+      team: "PS. BPKPD",
+      played: 2,
+      won: 1,
+      drawn: 1,
+      lost: 0,
+      gf: 1,
+      ga: 0,
       points: 4,
     },
     {
@@ -56,43 +56,43 @@ export const ligaData = {
     },
     {
       team: "Inspektorat TM",
-      played: 1,
+      played: 2,
       won: 0,
-      drawn: 1,
+      drawn: 2,
       lost: 0,
       gf: 0,
       ga: 0,
-      points: 1,
+      points: 2,
+    },
+    {
+      team: "Dispora FC",
+      played: 2,
+      won: 1,
+      drawn: 0,
+      lost: 1,
+      gf: 1,
+      ga: 1,
+      points: 3,
     },
     {
       team: "DPMD Bal-balan",
-      played: 1,
+      played: 2,
       won: 0,
       drawn: 1,
-      lost: 0,
+      lost: 1,
       gf: 0,
-      ga: 0,
+      ga: 1,
       points: 1,
     },
     {
       team: "Diskominfo FC",
-      played: 1,
+      played: 2,
       won: 0,
-      drawn: 0,
+      drawn: 1,
       lost: 1,
       gf: 0,
       ga: 1,
-      points: 0,
-    },
-    {
-      team: "Dispora FC",
-      played: 1,
-      won: 0,
-      drawn: 0,
-      lost: 1,
-      gf: 0,
-      ga: 1,
-      points: 0,
+      points: 1,
     },
     {
       team: "Bapperida FC",
@@ -105,17 +105,18 @@ export const ligaData = {
       points: 0,
     },
   ],
+
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-10-08",
-      teams: "Inspektorat TM vs DISKOMINFO FC",
+      date: "2025-10-15",
+      teams: "Bapperida FC vs PRADAM FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-10-08",
-      teams: "DPMD Bal-balan vs Dispora FC",
+      date: "2025-10-15",
+      teams: "PS. BPKPD vs KESBANG FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -246,7 +247,7 @@ export const ligaData = {
     {
       date: "2025-10-08",
       teams: "DPMD Bal-balan vs Dispora FC",
-      score: "0-0",
+      score: "0-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -469,6 +470,7 @@ export const ligaData = {
     { player: "Andi", team: "KESBANG FC", goals: 1 },
     { player: "Isnedine Zidane", team: "PS. BPKPD", goals: 1 },
     { player: "Rhandy", team: "PRADAM FC", goals: 1 },
+    { player: "Ariawan", team: "DISPORA FC", goals: 1 },
   ],
 
   // Kartu Merah
@@ -485,6 +487,11 @@ export const ligaData = {
     { player: "Wahyudi", team: "KESBANG FC", count: 1 },
     { player: "Andik", team: "KESBANG FC", count: 1 },
     { player: "Fatchul", team: "BKPSDM SC", count: 1 },
+    { player: "Sunarno", team: "PRADAM FC", count: 1 },
+    { player: "Bayu", team: "Inspektorat TM", count: 1 },
+    { player: "Dwi", team: "Inspektorat TM", count: 1 },
+    { player: "Andri", team: "Diskominfo FC", count: 1 },
+    { player: "Ariawan", team: "Dispora FC", count: 1 },
   ],
 
   // Data Tim
