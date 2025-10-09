@@ -55,7 +55,7 @@ export const ligaData = {
       points: 2,
     },
     {
-      team: "Inspektorat TM",
+      team: "Inspektorat™",
       played: 2,
       won: 0,
       drawn: 2,
@@ -150,7 +150,7 @@ export const ligaData = {
     },
     {
       date: "2025-02-24",
-      teams: "KESBANG FC vs Inspektorat TM",
+      teams: "KESBANG FC vs Inspektorat™",
       score: "1-1",
       venue: "Stadion E",
     },
@@ -180,7 +180,7 @@ export const ligaData = {
     },
     {
       date: "2025-03-03",
-      teams: "DPMD Bal-balan vs Inspektorat TM",
+      teams: "DPMD Bal-balan vs Inspektorat™",
       score: "0-0",
       venue: "Stadion E",
     },
@@ -216,7 +216,7 @@ export const ligaData = {
     },
     {
       date: "2025-09-24",
-      teams: "DPMD Bal-balan vs Inspektorat TM",
+      teams: "DPMD Bal-balan vs Inspektorat™",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -240,7 +240,7 @@ export const ligaData = {
     },
     {
       date: "2025-10-08",
-      teams: "Inspektorat TM vs DISKOMINFO FC",
+      teams: "Inspektorat™ vs DISKOMINFO FC",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -264,7 +264,7 @@ export const ligaData = {
     },
     {
       date: "2025-10-22",
-      teams: "SETDA FC vs Inspektorat TM",
+      teams: "SETDA FC vs Inspektorat™",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -288,7 +288,7 @@ export const ligaData = {
     },
     {
       date: "2025-11-05",
-      teams: "Inspektorat TM vs PRADAM FC",
+      teams: "Inspektorat™ vs PRADAM FC",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -312,7 +312,7 @@ export const ligaData = {
     },
     {
       date: "2025-11-19",
-      teams: "Bapperida FC vs Inspektorat TM",
+      teams: "Bapperida FC vs Inspektorat™",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -348,7 +348,7 @@ export const ligaData = {
     },
     {
       date: "2025-12-10",
-      teams: "Dispora FC vs Inspektorat TM",
+      teams: "Dispora FC vs Inspektorat™",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -384,7 +384,7 @@ export const ligaData = {
     },
     {
       date: "2025-12-31",
-      teams: "Inspektorat TM vs BKPSDM SC",
+      teams: "Inspektorat™ vs BKPSDM SC",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -420,7 +420,7 @@ export const ligaData = {
     },
     {
       date: "2026-01-21",
-      teams: "PS. BPKPD vs Inspektorat TM",
+      teams: "PS. BPKPD vs Inspektorat™",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -456,7 +456,7 @@ export const ligaData = {
     },
     {
       date: "2026-02-11",
-      teams: "Inspektorat TM vs KESBANG FC",
+      teams: "Inspektorat™ vs KESBANG FC",
       score: "0-0",
       venue: "Pemda Terpadu Stadium",
     },
@@ -488,8 +488,8 @@ export const ligaData = {
     { player: "Andik", team: "KESBANG FC", count: 1 },
     { player: "Fatchul", team: "BKPSDM SC", count: 1 },
     { player: "Sunarno", team: "PRADAM FC", count: 1 },
-    { player: "Bayu", team: "Inspektorat TM", count: 1 },
-    { player: "Dwi", team: "Inspektorat TM", count: 1 },
+    { player: "Bayu", team: "Inspektorat™", count: 1 },
+    { player: "Dwi", team: "Inspektorat™", count: 1 },
     { player: "Andri", team: "Diskominfo FC", count: 1 },
     { player: "Ariawan", team: "Dispora FC", count: 1 },
   ],
@@ -852,7 +852,7 @@ export const ligaData = {
       },
     },
     {
-      name: "Inspektorat TM",
+      name: "Inspektorat™",
       nickname: "Integrity Boys",
       profile: {
         logo: "../images/logos/inspektorat_logo.png",
