@@ -312,7 +312,7 @@ tr:hover td {
 
 .standings-table td:first-child {
   background: white !important;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(226, 232, 240, 0.8);
 }
 
 .standings-table th:nth-child(2),
@@ -327,7 +327,7 @@ tr:hover td {
 
 .standings-table td:nth-child(2) {
   background: white !important;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .standings-table tr:hover td:first-child,
@@ -967,8 +967,16 @@ tr:hover td {
 @media (max-width: 768px) {
   .standings-table th:first-child,
   .standings-table td:first-child {
-    width: 50px;
+    width: 45px;
     padding: 0.5rem 0.2rem;
+    left: 0 !important;
+  }
+
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    left: 45px !important;
+    min-width: 150px;
+    padding-left: 0.5rem;
   }
 
   .position-circle {
@@ -978,21 +986,33 @@ tr:hover td {
   }
 
   .team-cell {
-    min-width: 160px;
+    min-width: 150px;
     gap: 0.5rem;
   }
 
   .team-logo {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .team-name {
+    font-size: 0.85rem;
   }
 }
 
 @media (max-width: 480px) {
   .standings-table th:first-child,
   .standings-table td:first-child {
-    width: 45px;
+    width: 40px;
     padding: 0.4rem 0.1rem;
+    left: 0 !important;
+  }
+
+  .standings-table th:nth-child(2),
+  .standings-table td:nth-child(2) {
+    left: 40px !important;
+    min-width: 130px;
+    padding-left: 0.5rem;
   }
 
   .position-circle {
@@ -1002,13 +1022,17 @@ tr:hover td {
   }
 
   .team-cell {
-    min-width: 140px;
+    min-width: 130px;
     gap: 0.4rem;
   }
 
   .team-logo {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .team-name {
+    font-size: 0.8rem;
   }
 }
 
