@@ -296,6 +296,11 @@ function getTeamProfile(teamName) {
 }
 
 function slugify(text) {
+  // Kasus khusus untuk Inspektorat™
+  if (text.includes("Inspektorat™")) {
+    return "inspektorat-tm";
+  }
+  
   return text
     .toLowerCase()
     .replace(/[^\w\s-]/g, "") // Hapus karakter khusus
