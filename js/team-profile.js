@@ -126,6 +126,12 @@ function getTeamData(teamName) {
 
 function findTeamBySlug(slug) {
   if (!ligaData.teams) return null;
+  
+  // Kasus khusus untuk Inspektorat™
+  if (slug === "inspektorat-tm") {
+    const inspektoratTeam = ligaData.teams.find(team => team.name.includes("Inspektorat"));
+    return inspektoratTeam ? inspektoratTeam.name : null;
+  }
 
   const team = ligaData.teams.find((team) => {
     const teamSlug = slugify(team.name);
