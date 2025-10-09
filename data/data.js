@@ -470,7 +470,7 @@ export const ligaData = {
     { player: "Andi", team: "KESBANG FC", goals: 1 },
     { player: "Isnedine Zidane", team: "PS. BPKPD", goals: 1 },
     { player: "Rhandy", team: "PRADAM FC", goals: 1 },
-    { player: "Ariawan", team: "DISPORA FC", goals: 1 },
+    { player: "Sonny", team: "DISPORA FC", goals: 1 },
   ],
 
   // Kartu Merah
