@@ -217,7 +217,6 @@ section h3 {
   margin-top: 1rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(30, 41, 59, 0.1);
-  position: relative;
 }
 
 table {
@@ -304,39 +303,10 @@ tr:hover td {
   text-align: center;
   width: 60px;
   padding: 0.75rem 0.25rem;
-  position: sticky;
-  left: 0;
-  z-index: 3;
-  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
-}
-
-.standings-table td:first-child {
-  background: white !important;
-  border-right: 1px solid rgba(226, 232, 240, 0.8);
-}
-
-.standings-table th:nth-child(2),
-.standings-table td:nth-child(2) {
-  position: sticky;
-  left: 60px;
-  z-index: 3;
-  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
-  min-width: 220px;
-  padding-left: 1rem;
-}
-
-.standings-table td:nth-child(2) {
-  background: white !important;
-  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.standings-table tr:hover td:first-child,
-.standings-table tr:hover td:nth-child(2) {
-  background: white !important;
 }
 
 .standings-table .team-cell {
-  min-width: 220px;
+  min-width: 200px;
 }
 
 /* Team Links Grid */
@@ -967,16 +937,8 @@ tr:hover td {
 @media (max-width: 768px) {
   .standings-table th:first-child,
   .standings-table td:first-child {
-    width: 45px;
+    width: 50px;
     padding: 0.5rem 0.2rem;
-    left: 0 !important;
-  }
-
-  .standings-table th:nth-child(2),
-  .standings-table td:nth-child(2) {
-    left: 45px !important;
-    min-width: 150px;
-    padding-left: 0.5rem;
   }
 
   .position-circle {
@@ -986,33 +948,21 @@ tr:hover td {
   }
 
   .team-cell {
-    min-width: 150px;
+    min-width: 160px;
     gap: 0.5rem;
   }
 
   .team-logo {
-    width: 18px;
-    height: 18px;
-  }
-
-  .team-name {
-    font-size: 0.85rem;
+    width: 20px;
+    height: 20px;
   }
 }
 
 @media (max-width: 480px) {
   .standings-table th:first-child,
   .standings-table td:first-child {
-    width: 40px;
+    width: 45px;
     padding: 0.4rem 0.1rem;
-    left: 0 !important;
-  }
-
-  .standings-table th:nth-child(2),
-  .standings-table td:nth-child(2) {
-    left: 40px !important;
-    min-width: 130px;
-    padding-left: 0.5rem;
   }
 
   .position-circle {
@@ -1022,17 +972,13 @@ tr:hover td {
   }
 
   .team-cell {
-    min-width: 130px;
+    min-width: 140px;
     gap: 0.4rem;
   }
 
   .team-logo {
-    width: 16px;
-    height: 16px;
-  }
-
-  .team-name {
-    font-size: 0.8rem;
+    width: 18px;
+    height: 18px;
   }
 }
 
