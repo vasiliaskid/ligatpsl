@@ -475,7 +475,6 @@ export const ligaData = {
     { player: "Jamie Pardi", team: "PS. BPKPD", goals: 1 },
     { player: "Ari", team: "SETDA FC", goals: 1 },
     { player: "Farid", team: "SETDA FC", goals: 1 },
-    { player: "Ari", team: "SETDA FC", goals: 1 },
     { player: "Oers@m", team: "Inspektorat™", goals: 1 },
     { player: "Warih", team: "BKPSDM SC", goals: 1 },
     { player: "Adi", team: "DPMD Bal-balan", goals: 1 },
