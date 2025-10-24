@@ -115,7 +115,7 @@ export const ligaData = {
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-10-22",
+      date: "2025-10-29",
       teams: "KESBANG FC vs Bapperida FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
