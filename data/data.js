@@ -6,13 +6,13 @@ export const ligaData = {
   standings: [
     {
       team: "SETDA FC",
-      played: 3,
-      won: 2,
+      played: 4,
+      won: 3,
       drawn: 1,
       lost: 0,
-      gf: 7,
+      gf: 8,
       ga: 2,
-      points: 7,
+      points: 10,
     },
     {
       team: "PRADAM FC",
@@ -23,16 +23,6 @@ export const ligaData = {
       gf: 3,
       ga: 1,
       points: 8,
-    },
-    {
-      team: "Dispora FC",
-      played: 3,
-      won: 2,
-      drawn: 0,
-      lost: 1,
-      gf: 2,
-      ga: 1,
-      points: 6,
     },
     {
       team: "DPMD Bal-balan",
@@ -65,6 +55,26 @@ export const ligaData = {
       points: 5,
     },
     {
+      team: "Dispora FC",
+      played: 4,
+      won: 2,
+      drawn: 0,
+      lost: 2,
+      gf: 2,
+      ga: 2,
+      points: 6,
+    },
+    {
+      team: "BKPSDM SC",
+      played: 4,
+      won: 0,
+      drawn: 3,
+      lost: 1,
+      gf: 1,
+      ga: 2,
+      points: 3,
+    },
+    {
       team: "Inspektorat™",
       played: 4,
       won: 0,
@@ -72,16 +82,6 @@ export const ligaData = {
       lost: 2,
       gf: 1,
       ga: 4,
-      points: 2,
-    },
-    {
-      team: "BKPSDM SC",
-      played: 3,
-      won: 0,
-      drawn: 2,
-      lost: 1,
-      gf: 1,
-      ga: 2,
       points: 2,
     },
     {
@@ -96,27 +96,27 @@ export const ligaData = {
     },
     {
       team: "Diskominfo FC",
-      played: 3,
+      played: 4,
       won: 0,
-      drawn: 1,
+      drawn: 2,
       lost: 2,
       gf: 0,
       ga: 2,
-      points: 1,
+      points: 2,
     },
   ],
 
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-11-12",
-      teams: "Dispora FC vs SETDA FC",
+      date: "2025-11-19",
+      teams: "Bapperida FC vs Inspektorat™",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-11-12",
-      teams: "DISKOMINFO FC vs BKPSDM SC",
+      date: "2025-11-19",
+      teams: "KESBANG FC vs DPMD Bal-balan",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -301,7 +301,7 @@ export const ligaData = {
     {
       date: "2025-11-12",
       teams: "Dispora FC vs SETDA FC",
-      score: "0-0",
+      score: "0-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -480,6 +480,7 @@ export const ligaData = {
     { player: "Adi", team: "DPMD Bal-balan", goals: 1 },
     { player: "Heru", team: "DPMD Bal-balan", goals: 4 },
     { player: "Deni", team: "DISPORA FC", goals: 1 },
+    { player: "Bagus", team: "SETDA FC", goals: 1 },
   ],
 
   // Kartu Merah
