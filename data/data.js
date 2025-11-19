@@ -26,13 +26,13 @@ export const ligaData = {
     },
     {
       team: "DPMD Bal-balan",
-      played: 4,
-      won: 2,
+      played: 5,
+      won: 3,
       drawn: 1,
       lost: 1,
-      gf: 5,
+      gf: 6,
       ga: 2,
-      points: 7,
+      points: 10,
     },
     {
       team: "PS. BPKPD",
@@ -45,16 +45,6 @@ export const ligaData = {
       points: 7,
     },
     {
-      team: "KESBANG FC",
-      played: 4,
-      won: 1,
-      drawn: 2,
-      lost: 1,
-      gf: 1,
-      ga: 2,
-      points: 5,
-    },
-    {
       team: "Dispora FC",
       played: 4,
       won: 2,
@@ -63,6 +53,26 @@ export const ligaData = {
       gf: 2,
       ga: 2,
       points: 6,
+    },
+    {
+      team: "Inspektorat™",
+      played: 5,
+      won: 1,
+      drawn: 2,
+      lost: 2,
+      gf: 2,
+      ga: 4,
+      points: 5,
+    },
+    {
+      team: "KESBANG FC",
+      played: 5,
+      won: 1,
+      drawn: 2,
+      lost: 2,
+      gf: 1,
+      ga: 3,
+      points: 5,
     },
     {
       team: "BKPSDM SC",
@@ -75,23 +85,13 @@ export const ligaData = {
       points: 3,
     },
     {
-      team: "Inspektorat™",
-      played: 4,
-      won: 0,
-      drawn: 2,
-      lost: 2,
-      gf: 1,
-      ga: 4,
-      points: 2,
-    },
-    {
       team: "Bapperida FC",
-      played: 4,
+      played: 5,
       won: 0,
       drawn: 2,
-      lost: 2,
+      lost: 3,
       gf: 0,
-      ga: 4,
+      ga: 5,
       points: 2,
     },
     {
@@ -109,14 +109,14 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-11-19",
-      teams: "Bapperida FC vs Inspektorat™",
+      date: "2025-11-26",
+      teams: "PRADAM FC vs Dispora FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-11-19",
-      teams: "KESBANG FC vs DPMD Bal-balan",
+      date: "2025-11-26",
+      teams: "PS. BPKPD vs DISKOMINFO FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -313,13 +313,13 @@ export const ligaData = {
     {
       date: "2025-11-19",
       teams: "Bapperida FC vs Inspektorat™",
-      score: "0-0",
+      score: "0-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2025-11-19",
       teams: "KESBANG FC vs DPMD Bal-balan",
-      score: "0-0",
+      score: "0-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -481,10 +481,12 @@ export const ligaData = {
     { player: "Heru", team: "DPMD Bal-balan", goals: 4 },
     { player: "Deni", team: "DISPORA FC", goals: 1 },
     { player: "Bagus", team: "SETDA FC", goals: 1 },
+    { player: "Agus", team: "Inspektorat™", goals: 1 },
+    { player: "Khoirul", team: "DPMD Bal-balan", goals: 1 },
   ],
 
   // Kartu Merah
-  redCards: [],
+  redCards: [{ player: "Andi K", team: "DPMD Bal-balan", count: 1 }],
 
   // Kartu Kuning
   yellowCards: [
@@ -506,6 +508,7 @@ export const ligaData = {
     { player: "Agus C", team: "SETDA FC", count: 1 },
     { player: "Agus", team: "Inspektorat™", count: 1 },
     { player: "Sigit", team: "DPMD Bal-balan", count: 1 },
+    { player: "Sindung", team: "Bapperida FC", count: 1 },
   ],
 
   // Data Tim
