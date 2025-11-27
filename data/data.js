@@ -15,16 +15,6 @@ export const ligaData = {
       points: 10,
     },
     {
-      team: "PRADAM FC",
-      played: 4,
-      won: 2,
-      drawn: 2,
-      lost: 0,
-      gf: 3,
-      ga: 1,
-      points: 8,
-    },
-    {
       team: "DPMD Bal-balan",
       played: 5,
       won: 3,
@@ -35,27 +25,37 @@ export const ligaData = {
       points: 10,
     },
     {
-      team: "PS. BPKPD",
-      played: 4,
+      team: "PRADAM FC",
+      played: 5,
       won: 2,
+      drawn: 3,
+      lost: 0,
+      gf: 4,
+      ga: 2,
+      points: 9,
+    },
+    {
+      team: "PS. BPKPD",
+      played: 5,
+      won: 3,
       drawn: 1,
       lost: 1,
+      gf: 5,
+      ga: 4,
+      points: 10,
+    },
+    {
+      team: "Dispora FC",
+      played: 5,
+      won: 2,
+      drawn: 1,
+      lost: 2,
       gf: 3,
       ga: 3,
       points: 7,
     },
     {
-      team: "Dispora FC",
-      played: 4,
-      won: 2,
-      drawn: 0,
-      lost: 2,
-      gf: 2,
-      ga: 2,
-      points: 6,
-    },
-    {
-      team: "Inspektorat™",
+      team: "Inspektorat TM",
       played: 5,
       won: 1,
       drawn: 2,
@@ -85,6 +85,16 @@ export const ligaData = {
       points: 3,
     },
     {
+      team: "DISKOMINFO FC",
+      played: 5,
+      won: 0,
+      drawn: 2,
+      lost: 3,
+      gf: 1,
+      ga: 4,
+      points: 2,
+    },
+    {
       team: "Bapperida FC",
       played: 5,
       won: 0,
@@ -94,29 +104,19 @@ export const ligaData = {
       ga: 5,
       points: 2,
     },
-    {
-      team: "Diskominfo FC",
-      played: 4,
-      won: 0,
-      drawn: 2,
-      lost: 2,
-      gf: 0,
-      ga: 2,
-      points: 2,
-    },
   ],
 
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-11-26",
-      teams: "PRADAM FC vs Dispora FC",
+      date: "2025-12-3",
+      teams: "SETDA FC vs BKPSDM SC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-11-26",
-      teams: "PS. BPKPD vs DISKOMINFO FC",
+      date: "2025-12-3",
+      teams: "DPMD Bal-balan vs Bapperida FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -325,13 +325,13 @@ export const ligaData = {
     {
       date: "2025-11-26",
       teams: "PRADAM FC vs Dispora FC",
-      score: "0-0",
+      score: "1-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2025-11-26",
       teams: "PS. BPKPD vs DISKOMINFO FC",
-      score: "0-0",
+      score: "2-1",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -469,9 +469,9 @@ export const ligaData = {
     { player: "Daryanto", team: "PRADAM FC", goals: 1 },
     { player: "Andi", team: "KESBANG FC", goals: 1 },
     { player: "Isnedine Zidane", team: "PS. BPKPD", goals: 1 },
-    { player: "Rhandy", team: "PRADAM FC", goals: 2 },
-    { player: "Sonny", team: "DISPORA FC", goals: 1 },
-    { player: "Antonio Valencia", team: "PS. BPKPD", goals: 1 },
+    { player: "Rhandy", team: "PRADAM FC", goals: 3 },
+    { player: "Sonny", team: "DISPORA FC", goals: 2 },
+    { player: "Antonio Valencia", team: "PS. BPKPD", goals: 2 },
     { player: "Jamie Pardi", team: "PS. BPKPD", goals: 1 },
     { player: "Ari", team: "SETDA FC", goals: 1 },
     { player: "Farid", team: "SETDA FC", goals: 1 },
@@ -483,10 +483,15 @@ export const ligaData = {
     { player: "Bagus", team: "SETDA FC", goals: 1 },
     { player: "Agus", team: "Inspektorat™", goals: 1 },
     { player: "Khoirul", team: "DPMD Bal-balan", goals: 1 },
+    { player: "Thieari Henry", team: "PS. BPKPD", goals: 1 },
+    { player: "Beni", team: "Diskominfo FC", goals: 1 },
   ],
 
   // Kartu Merah
-  redCards: [{ player: "Andi K", team: "DPMD Bal-balan", count: 1 }],
+  redCards: [
+    { player: "Andi K", team: "DPMD Bal-balan", count: 1 },
+    { player: "Angga", team: "Diskominfo FC", count: 1 },
+  ],
 
   // Kartu Kuning
   yellowCards: [
@@ -509,6 +514,7 @@ export const ligaData = {
     { player: "Agus", team: "Inspektorat™", count: 1 },
     { player: "Sigit", team: "DPMD Bal-balan", count: 1 },
     { player: "Sindung", team: "Bapperida FC", count: 1 },
+    { player: "Jamie Pardi", team: "PS. BPKPD", count: 1 },
   ],
 
   // Data Tim
