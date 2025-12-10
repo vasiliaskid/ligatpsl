@@ -55,7 +55,7 @@ export const ligaData = {
     points: 8
   },
   {
-    team: "Inspektorat TM",
+    team: "Inspektorat™",
     played: 6,
     won: 1,
     drawn: 3,
