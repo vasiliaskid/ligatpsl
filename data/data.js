@@ -46,33 +46,33 @@ export const ligaData = {
   },
   {
     team: "Dispora FC",
-    played: 5,
+    played: 6,
     won: 2,
-    drawn: 1,
+    drawn: 2,
     lost: 2,
     gf: 3,
     ga: 3,
-    points: 7
+    points: 8
   },
   {
-    team: "Inspektorat™",
-    played: 5,
+    team: "Inspektorat TM",
+    played: 6,
     won: 1,
-    drawn: 2,
+    drawn: 3,
     lost: 2,
     gf: 2,
     ga: 4,
-    points: 5
+    points: 6
   },
   {
     team: "KESBANG FC",
-    played: 5,
+    played: 6,
     won: 1,
-    drawn: 2,
+    drawn: 3,
     lost: 2,
     gf: 1,
     ga: 3,
-    points: 5
+    points: 6
   },
   {
     team: "BKPSDM SC",
@@ -85,14 +85,14 @@ export const ligaData = {
     points: 4
   },
   {
-    team: "Diskominfo FC",
-    played: 5,
+    team: "DISKOMINFO FC",
+    played: 6,
     won: 0,
-    drawn: 2,
+    drawn: 3,
     lost: 3,
     gf: 1,
     ga: 4,
-    points: 2
+    points: 3
   },
   {
     team: "Bapperida FC",
@@ -109,14 +109,14 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-12-10",
-      teams: "Dispora FC vs Inspektorat™",
+      date: "2025-12-17",
+      teams: "BKPSDM SC vs PRADAM FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-12-10",
-      teams: "DISKOMINFO FC vs KESBANG FC",
+      date: "2025-12-17",
+      teams: "SETDA FC vs PS. BPKPD",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -507,7 +507,7 @@ export const ligaData = {
     { player: "Bayu", team: "Inspektorat™", count: 1 },
     { player: "Dwi", team: "Inspektorat™", count: 1 },
     { player: "Andri", team: "Diskominfo FC", count: 1 },
-    { player: "Ariawan", team: "Dispora FC", count: 1 },
+    { player: "Ariawan", team: "Dispora FC", count: 2 },
     { player: "Irgo", team: "PRADAM FC", count: 1 },
     { player: "Hazfi Alonso", team: "PS. BPKPD", count: 1 },
     { player: "Agus C", team: "SETDA FC", count: 1 },
@@ -516,6 +516,8 @@ export const ligaData = {
     { player: "Sindung", team: "Bapperida FC", count: 1 },
     { player: "Jamie Pardi", team: "PS. BPKPD", count: 1 },
     { player: "Unama", team: "BKPSDM SC", count: 1 },
+    { player: "Rio", team: "Inspektorat™", count: 1 },
+    { player: "Andre", team: "KESBANG FC", count: 1 },
   ],
 
   // Data Tim
