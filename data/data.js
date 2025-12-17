@@ -6,13 +6,13 @@ export const ligaData = {
   standings: [
   {
     team: "SETDA FC",
-    played: 5,
-    won: 3,
+    played: 6,
+    won: 4,
     drawn: 2,
     lost: 0,
-    gf: 8,
+    gf: 9,
     ga: 2,
-    points: 11
+    points: 14
   },
   {
     team: "DPMD Bal-balan",
@@ -26,22 +26,22 @@ export const ligaData = {
   },
   {
     team: "PRADAM FC",
-    played: 5,
+    played: 6,
     won: 2,
-    drawn: 3,
+    drawn: 4,
     lost: 0,
     gf: 4,
     ga: 2,
-    points: 9
+    points: 10
   },
   {
     team: "PS. BPKPD",
-    played: 5,
+    played: 6,
     won: 3,
     drawn: 1,
-    lost: 1,
+    lost: 2,
     gf: 5,
-    ga: 4,
+    ga: 5,
     points: 10
   },
   {
@@ -76,13 +76,13 @@ export const ligaData = {
   },
   {
     team: "BKPSDM SC",
-    played: 5,
+    played: 6,
     won: 0,
-    drawn: 4,
+    drawn: 5,
     lost: 1,
     gf: 1,
     ga: 2,
-    points: 4
+    points: 5
   },
   {
     team: "Diskominfo FC",
@@ -106,17 +106,18 @@ export const ligaData = {
   }
 ],
 
+
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-12-17",
-      teams: "BKPSDM SC vs PRADAM FC",
+      date: "2025-12-24",
+      teams: "Bapperida FC vs Dispora FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-12-17",
-      teams: "SETDA FC vs PS. BPKPD",
+      date: "2025-12-24",
+      teams: "DPMD Bal-balan vs DISKOMINFO FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -367,7 +368,7 @@ export const ligaData = {
     {
       date: "2025-12-17",
       teams: "SETDA FC vs PS. BPKPD",
-      score: "0-0",
+      score: "1-0",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -474,7 +475,7 @@ export const ligaData = {
     { player: "Antonio Valencia", team: "PS. BPKPD", goals: 2 },
     { player: "Jamie Pardi", team: "PS. BPKPD", goals: 1 },
     { player: "Ari", team: "SETDA FC", goals: 1 },
-    { player: "Farid", team: "SETDA FC", goals: 1 },
+    { player: "Farid", team: "SETDA FC", goals: 2 },
     { player: "Oers@m", team: "Inspektorat™", goals: 1 },
     { player: "Warih", team: "BKPSDM SC", goals: 1 },
     { player: "Adi", team: "DPMD Bal-balan", goals: 1 },
@@ -498,11 +499,11 @@ export const ligaData = {
     { player: "Totok", team: "Bapperida FC", count: 1 },
     { player: "Bagus", team: "SETDA FC", count: 2 },
     { player: "Arnazain", team: "Bapperida FC", count: 2 },
-    { player: "Fajar", team: "PRADAM FC", count: 1 },
+    { player: "Fajar", team: "PRADAM FC", count: 2 },
     { player: "Galih", team: "KESBANG FC", count: 1 },
     { player: "Wahyudi", team: "KESBANG FC", count: 1 },
     { player: "Andik", team: "KESBANG FC", count: 1 },
-    { player: "Fatchul", team: "BKPSDM SC", count: 2 },
+    { player: "Fatchul", team: "BKPSDM SC", count: 3 },
     { player: "Sunarno", team: "PRADAM FC", count: 1 },
     { player: "Bayu", team: "Inspektorat™", count: 1 },
     { player: "Dwi", team: "Inspektorat™", count: 1 },
@@ -518,6 +519,7 @@ export const ligaData = {
     { player: "Unama", team: "BKPSDM SC", count: 1 },
     { player: "Rio", team: "Inspektorat™", count: 1 },
     { player: "Andre", team: "KESBANG FC", count: 1 },
+    { player: "Franky", team: "SETDA FC", count: 1 },
   ],
 
   // Data Tim
