@@ -16,13 +16,13 @@ export const ligaData = {
   },
   {
     team: "DPMD Bal-balan",
-    played: 6,
-    won: 3,
+    played: 7,
+    won: 4,
     drawn: 2,
     lost: 1,
-    gf: 6,
+    gf: 8,
     ga: 2,
-    points: 11
+    points: 14
   },
   {
     team: "PRADAM FC",
@@ -46,13 +46,13 @@ export const ligaData = {
   },
   {
     team: "Dispora FC",
-    played: 6,
-    won: 2,
+    played: 7,
+    won: 3,
     drawn: 2,
     lost: 2,
-    gf: 3,
-    ga: 3,
-    points: 8
+    gf: 5,
+    ga: 4,
+    points: 11
   },
   {
     team: "Inspektorat™",
@@ -86,22 +86,22 @@ export const ligaData = {
   },
   {
     team: "Diskominfo FC",
-    played: 6,
+    played: 7,
     won: 0,
     drawn: 3,
-    lost: 3,
+    lost: 4,
     gf: 1,
-    ga: 4,
+    ga: 6,
     points: 3
   },
   {
     team: "Bapperida FC",
-    played: 6,
+    played: 7,
     won: 0,
     drawn: 3,
-    lost: 3,
-    gf: 0,
-    ga: 5,
+    lost: 4,
+    gf: 1,
+    ga: 7,
     points: 3
   }
 ],
@@ -110,14 +110,14 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2025-12-24",
-      teams: "Bapperida FC vs Dispora FC",
+      date: "2025-12-31",
+      teams: "Inspektorat™ vs BKPSDM SC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2025-12-24",
-      teams: "DPMD Bal-balan vs DISKOMINFO FC",
+      date: "2025-12-31",
+      teams: "KESBANG FC vs SETDA FC",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -374,13 +374,13 @@ export const ligaData = {
     {
       date: "2025-12-24",
       teams: "Bapperida FC vs Dispora FC",
-      score: "0-0",
+      score: "1-2",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2025-12-24",
       teams: "DPMD Bal-balan vs DISKOMINFO FC",
-      score: "0-0",
+      score: "2-0",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -520,6 +520,7 @@ export const ligaData = {
     { player: "Rio", team: "Inspektorat™", count: 1 },
     { player: "Andre", team: "KESBANG FC", count: 1 },
     { player: "Franky", team: "SETDA FC", count: 1 },
+    { player: "Sugeng", team: "DPMD Bal-balan", count: 1 },
   ],
 
   // Data Tim
