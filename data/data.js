@@ -27,22 +27,22 @@ export const ligaData = {
   {
     team: "PRADAM FC",
     played: 7,
-    won: 2,
+    won: 3,
     drawn: 4,
-    lost: 1,
-    gf: 4,
-    ga: 3,
-    points: 10
+    lost: 0,
+    gf: 5,
+    ga: 2,
+    points: 13
   },
   {
     team: "PS. BPKPD",
     played: 7,
-    won: 4,
+    won: 3,
     drawn: 1,
-    lost: 2,
-    gf: 6,
-    ga: 5,
-    points: 13
+    lost: 3,
+    gf: 5,
+    ga: 6,
+    points: 10
   },
   {
     team: "Dispora FC",
@@ -105,6 +105,7 @@ export const ligaData = {
     points: 3
   }
 ],
+
 
   // Pertandingan Mendatang
   nextMatch: [
