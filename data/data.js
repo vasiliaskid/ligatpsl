@@ -26,23 +26,23 @@ export const ligaData = {
   },
   {
     team: "PRADAM FC",
-    played: 6,
+    played: 7,
     won: 2,
     drawn: 4,
-    lost: 0,
+    lost: 1,
     gf: 4,
-    ga: 2,
+    ga: 3,
     points: 10
   },
   {
     team: "PS. BPKPD",
-    played: 6,
-    won: 3,
+    played: 7,
+    won: 4,
     drawn: 1,
     lost: 2,
-    gf: 5,
+    gf: 6,
     ga: 5,
-    points: 10
+    points: 13
   },
   {
     team: "Dispora FC",
@@ -85,23 +85,23 @@ export const ligaData = {
     points: 8
   },
   {
-    team: "Diskominfo FC",
-    played: 7,
-    won: 0,
+    team: "Bapperida FC",
+    played: 8,
+    won: 1,
     drawn: 3,
     lost: 4,
-    gf: 1,
+    gf: 2,
     ga: 6,
-    points: 3
+    points: 6
   },
   {
     team: "Bapperida FC",
-    played: 7,
+    played: 8,
     won: 0,
     drawn: 3,
-    lost: 4,
+    lost: 5,
     gf: 1,
-    ga: 7,
+    ga: 8,
     points: 3
   }
 ],
@@ -109,14 +109,14 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2026-01-07",
-      teams: "PRADAM FC vs PS. BPKPD",
+      date: "2026-01-14",
+      teams: "PBKPSDM SC vs Dispora FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2026-01-07",
-      teams: "DISKOMINFO FC vs Bapperida FC",
+      date: "2026-01-14",
+      teams: "SETDA FC vs DPMD Bal-balan",
       time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
@@ -397,13 +397,13 @@ export const ligaData = {
     {
       date: "2026-01-07",
       teams: "PRADAM FC vs PS. BPKPD",
-      score: "0-0",
+      score: "1-0",
       venue: "Pemda Terpadu Stadium",
     },
     {
       date: "2026-01-07",
       teams: "DISKOMINFO FC vs Bapperida FC",
-      score: "0-0",
+      score: "1-0",
       venue: "Pemda Terpadu Stadium",
     },
     {
@@ -489,6 +489,8 @@ export const ligaData = {
     { player: "Miftah", team: "DISPORA FC", goals: 1 },
     { player: "Fatckul", team: "BKPSDM SC", goals: 1 },
     { player: "Arifin", team: "KESBANG FC", goals: 1 },
+    { player: "Hendi", team: "PRADAM FC", goals: 1 },
+    { player: "Angga", team: "Diskominfo FC", goals: 1 },
   ],
 
   // Kartu Merah
@@ -526,6 +528,7 @@ export const ligaData = {
     { player: "Sugeng", team: "DPMD Bal-balan", count: 1 },
     { player: "Ivan", team: "KESBANG FC", count: 1 },
     { player: "Edi", team: "SETDA FC", count: 1 },
+    { player: "86", team: "Bapperida FC", count: 1 },
   ],
 
   // Data Tim
