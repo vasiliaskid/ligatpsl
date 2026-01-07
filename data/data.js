@@ -85,7 +85,7 @@ export const ligaData = {
     points: 8
   },
   {
-    team: "Bapperida FC",
+    team: "Diskominfo FC",
     played: 8,
     won: 1,
     drawn: 3,
