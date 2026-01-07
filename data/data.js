@@ -110,7 +110,7 @@ export const ligaData = {
   nextMatch: [
     {
       date: "2026-01-14",
-      teams: "PBKPSDM SC vs Dispora FC",
+      teams: "BKPSDM SC vs Dispora FC",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
