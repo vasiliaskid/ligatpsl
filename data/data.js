@@ -124,7 +124,7 @@ export const ligaData = {
     {
       date: "2026-02-04",
       teams: "DPMD Bal-balan vs PRADAM FC",
-      time: "16.00 WIB",
+      time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
   ],
