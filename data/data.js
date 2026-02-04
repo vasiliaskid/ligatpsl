@@ -112,7 +112,7 @@ export const ligaData = {
     {
       date: "2026-02-09",
       teams: "PRADAM FC vs DPMD Bal-balan (SEMIFINAL I)",
-      time: "16.00 WIB",
+      time:  "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
