@@ -110,7 +110,7 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2026-02-10",
+      date: "2026-02-09",
       teams: "PRADAM FC vs DPMD Bal-balan (SEMIFINAL I)",
       time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
@@ -118,7 +118,7 @@ export const ligaData = {
     {
       date: "2026-02-10",
       teams: "SETDA FC vs Dispora FC (SEMIFINAL II)",
-      time: "16.30 WIB",
+      time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
   ],
