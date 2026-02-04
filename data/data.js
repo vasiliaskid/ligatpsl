@@ -110,15 +110,15 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2026-02-04",
-      teams: "Inspektorat™ vs KESBANG FC",
-      time: "15.30 WIB",
+      date: "2026-02-10",
+      teams: "PRADAM FC vs DPMD Bal-balan (SEMIFINAL I)",
+      time: "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
     {
-      date: "2026-02-04",
-      teams: "Dispora FC vs PS. BPKPD",
-      time: "16.00 WIB",
+      date: "2026-02-10",
+      teams: "SETDA FC vs Dispora FC (SEMIFINAL II)",
+      time: "16.30 WIB",
       venue: "Pemda Terpadu Stadium",
     },
   ],
