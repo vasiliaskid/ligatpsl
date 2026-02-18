@@ -251,31 +251,60 @@ function initializeTabs() {
   });
 }
 
-// Render bracket playoff
 function renderBracket() {
-  if (!ligaData.standings || ligaData.standings.length < 4) {
+  if (!ligaData.playoff || !ligaData.playoff.semifinals) {
     return;
   }
 
-  // Urutkan berdasarkan poin untuk mendapatkan top 4
-  const sortedStandings = [...ligaData.standings].sort((a, b) => {
-    if (b.points !== a.points) return b.points - a.points;
-    const goalDiffA = a.gf - a.ga;
-    const goalDiffB = b.gf - b.ga;
-    if (goalDiffB !== goalDiffA) return goalDiffB - goalDiffA;
-    return b.gf - a.gf;
-  });
+  const semifinals = ligaData.playoff.semifinals;
+  const finalMatch = ligaData.playoff.final;
 
-  // Update bracket dengan nama tim top 4
-  const team1Element = document.getElementById("team-1");
-  const team2Element = document.getElementById("team-2");
-  const team3Element = document.getElementById("team-3");
-  const team4Element = document.getElementById("team-4");
+  const sf1 = semifinals[0];
+  const sf2 = semifinals[1];
 
-  if (team1Element) team1Element.textContent = `1. ${sortedStandings[0].team}`;
-  if (team2Element) team2Element.textContent = `2. ${sortedStandings[1].team}`;
-  if (team3Element) team3Element.textContent = `3. ${sortedStandings[2].team}`;
-  if (team4Element) team4Element.textContent = `4. ${sortedStandings[3].team}`;
+  const sf1HomeElement = document.getElementById("sf1-home");
+  const sf1AwayElement = document.getElementById("sf1-away");
+  const sf2HomeElement = document.getElementById("sf2-home");
+  const sf2AwayElement = document.getElementById("sf2-away");
+
+  if (sf1 && sf1HomeElement) {
+    sf1HomeElement.textContent = sf1.penalties && sf1.penalties.home != null
+      ? `${sf1.homeTeam} ${sf1.homeScore} (${sf1.penalties.home})`
+      : `${sf1.homeTeam} ${sf1.homeScore}`;
+  }
+
+  if (sf1 && sf1AwayElement) {
+    sf1AwayElement.textContent = sf1.penalties && sf1.penalties.away != null
+      ? `${sf1.awayTeam} ${sf1.awayScore} (${sf1.penalties.away})`
+      : `${sf1.awayTeam} ${sf1.awayScore}`;
+  }
+
+  if (sf2 && sf2HomeElement) {
+    sf2HomeElement.textContent = sf2.penalties && sf2.penalties.home != null
+      ? `${sf2.homeTeam} ${sf2.homeScore} (${sf2.penalties.home})`
+      : `${sf2.homeTeam} ${sf2.homeScore}`;
+  }
+
+  if (sf2 && sf2AwayElement) {
+    sf2AwayElement.textContent = sf2.penalties && sf2.penalties.away != null
+      ? `${sf2.awayTeam} ${sf2.awayScore} (${sf2.penalties.away})`
+      : `${sf2.awayTeam} ${sf2.awayScore}`;
+  }
+
+  const finalHomeElement = document.getElementById("final-home");
+  const finalAwayElement = document.getElementById("final-away");
+
+  if (finalMatch && finalHomeElement) {
+    finalHomeElement.textContent = finalMatch.homeScore != null
+      ? `${finalMatch.homeTeam} ${finalMatch.homeScore}`
+      : finalMatch.homeTeam;
+  }
+
+  if (finalMatch && finalAwayElement) {
+    finalAwayElement.textContent = finalMatch.awayScore != null
+      ? `${finalMatch.awayTeam} ${finalMatch.awayScore}`
+      : finalMatch.awayTeam;
+  }
 }
 
 // Utility functions

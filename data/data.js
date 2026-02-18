@@ -123,6 +123,37 @@ export const ligaData = {
     },
   ],
 
+  playoff: {
+    semifinals: [
+      {
+        id: "sf1",
+        homeTeam: "PRADAM FC",
+        awayTeam: "DPMD Bal-balan",
+        homeScore: 1,
+        awayScore: 0,
+        penalties: null,
+      },
+      {
+        id: "sf2",
+        homeTeam: "SETDA FC",
+        awayTeam: "Dispora FC",
+        homeScore: 0,
+        awayScore: 0,
+        penalties: {
+          home: 3,
+          away: 0,
+        },
+      },
+    ],
+    final: {
+      homeTeam: "PRADAM FC",
+      awayTeam: "SETDA FC",
+      homeScore: 1,
+      awayScore: 0,
+      penalties: null,
+    },
+  },
+
   // Jadwal Lengkap (termasuk yang sudah dimainkan dan yang akan datang)
   fixtures: [
     {
