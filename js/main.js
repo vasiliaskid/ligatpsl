@@ -262,52 +262,72 @@ function renderBracket() {
   const sf1 = semifinals[0];
   const sf2 = semifinals[1];
 
-  const sf1HomeElement = document.getElementById("sf1-home");
-  const sf1AwayElement = document.getElementById("sf1-away");
-  const sf2HomeElement = document.getElementById("sf2-home");
-  const sf2AwayElement = document.getElementById("sf2-away");
+  if (sf1) {
+    const sf1HomeText =
+      sf1.penalties && sf1.penalties.home != null
+        ? `${sf1.homeTeam} ${sf1.homeScore} (${sf1.penalties.home})`
+        : `${sf1.homeTeam} ${sf1.homeScore}`;
 
-  if (sf1 && sf1HomeElement) {
-    sf1HomeElement.textContent = sf1.penalties && sf1.penalties.home != null
-      ? `${sf1.homeTeam} ${sf1.homeScore} (${sf1.penalties.home})`
-      : `${sf1.homeTeam} ${sf1.homeScore}`;
+    const sf1AwayText =
+      sf1.penalties && sf1.penalties.away != null
+        ? `${sf1.awayTeam} ${sf1.awayScore} (${sf1.penalties.away})`
+        : `${sf1.awayTeam} ${sf1.awayScore}`;
+
+    renderBracketTeam("sf1-home", sf1.homeTeam, sf1HomeText);
+    renderBracketTeam("sf1-away", sf1.awayTeam, sf1AwayText);
   }
 
-  if (sf1 && sf1AwayElement) {
-    sf1AwayElement.textContent = sf1.penalties && sf1.penalties.away != null
-      ? `${sf1.awayTeam} ${sf1.awayScore} (${sf1.penalties.away})`
-      : `${sf1.awayTeam} ${sf1.awayScore}`;
+  if (sf2) {
+    const sf2HomeText =
+      sf2.penalties && sf2.penalties.home != null
+        ? `${sf2.homeTeam} ${sf2.homeScore} (${sf2.penalties.home})`
+        : `${sf2.homeTeam} ${sf2.homeScore}`;
+
+    const sf2AwayText =
+      sf2.penalties && sf2.penalties.away != null
+        ? `${sf2.awayTeam} ${sf2.awayScore} (${sf2.penalties.away})`
+        : `${sf2.awayTeam} ${sf2.awayScore}`;
+
+    renderBracketTeam("sf2-home", sf2.homeTeam, sf2HomeText);
+    renderBracketTeam("sf2-away", sf2.awayTeam, sf2AwayText);
   }
 
-  if (sf2 && sf2HomeElement) {
-    sf2HomeElement.textContent = sf2.penalties && sf2.penalties.home != null
-      ? `${sf2.homeTeam} ${sf2.homeScore} (${sf2.penalties.home})`
-      : `${sf2.homeTeam} ${sf2.homeScore}`;
-  }
+  if (finalMatch) {
+    const finalHomeText =
+      finalMatch.homeScore != null
+        ? `${finalMatch.homeTeam} ${finalMatch.homeScore}`
+        : finalMatch.homeTeam;
 
-  if (sf2 && sf2AwayElement) {
-    sf2AwayElement.textContent = sf2.penalties && sf2.penalties.away != null
-      ? `${sf2.awayTeam} ${sf2.awayScore} (${sf2.penalties.away})`
-      : `${sf2.awayTeam} ${sf2.awayScore}`;
-  }
+    const finalAwayText =
+      finalMatch.awayScore != null
+        ? `${finalMatch.awayTeam} ${finalMatch.awayScore}`
+        : finalMatch.awayTeam;
 
-  const finalHomeElement = document.getElementById("final-home");
-  const finalAwayElement = document.getElementById("final-away");
-
-  if (finalMatch && finalHomeElement) {
-    finalHomeElement.textContent = finalMatch.homeScore != null
-      ? `${finalMatch.homeTeam} ${finalMatch.homeScore}`
-      : finalMatch.homeTeam;
-  }
-
-  if (finalMatch && finalAwayElement) {
-    finalAwayElement.textContent = finalMatch.awayScore != null
-      ? `${finalMatch.awayTeam} ${finalMatch.awayScore}`
-      : finalMatch.awayTeam;
+    renderBracketTeam("final-home", finalMatch.homeTeam, finalHomeText);
+    renderBracketTeam("final-away", finalMatch.awayTeam, finalAwayText);
   }
 }
 
 // Utility functions
+function getTeamLogoSrc(teamName) {
+  const teamProfile = getTeamProfile(teamName);
+  if (teamProfile && teamProfile.profile && teamProfile.profile.logo) {
+    return teamProfile.profile.logo;
+  }
+  return "images/logos/default-logo.png";
+}
+
+function renderBracketTeam(elementId, teamName, displayText) {
+  const element = document.getElementById(elementId);
+  if (!element || !teamName) return;
+
+  const logoSrc = getTeamLogoSrc(teamName);
+  element.innerHTML = `
+    <img src="${logoSrc}" alt="Logo ${teamName}" class="bracket-team-logo">
+    <span>${displayText}</span>
+  `;
+}
+
 function formatDate(dateString) {
   const date = new Date(dateString);
   const options = {

@@ -110,18 +110,12 @@ export const ligaData = {
   // Pertandingan Mendatang
   nextMatch: [
     {
-      date: "2026-02-09",
-      teams: "PRADAM FC vs DPMD Bal-balan (SEMIFINAL I)",
+      date: "2026-02-12",
+      teams: "PRADAM FC vs SETDA  FC (FINAL PTSL #1)",
       time:  "16.00 WIB",
       venue: "Pemda Terpadu Stadium",
     },
-    {
-      date: "2026-02-10",
-      teams: "SETDA FC vs Dispora FC (SEMIFINAL II)",
-      time: "16.00 WIB",
-      venue: "Pemda Terpadu Stadium",
-    },
-  ],
+      ],
 
   playoff: {
     semifinals: [
